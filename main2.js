@@ -10,7 +10,7 @@ const setAnimalToWeb=()=>{
             row = row + `<p>Animal is ${animal.name} and, he is ${animal.age} years old </p>`
         })
         document.body.innerHTML = row;
-    },3000)
+    },1000)
 
 }
 
@@ -20,7 +20,7 @@ const addNewAnimal=(animalObj, callback)=>{
        animals.push(animalObj);
        console.log("done")
        callback();
-   },1000)
+   },3000)
 }
 
 // call method
